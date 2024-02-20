@@ -10,29 +10,23 @@
     <meta name="keywords"
         content="sneakers, luxury sneakers, spring fashion sneakers, pre-order discounts, basketball sneakers, Kobe 4 Protro, Women's Jordan 4 Retro Starfish, Jordan 5 UNC University Blue, insulated Nike sneakers, Jordan 4 Retro Seafoam, Nike Dunk Low Cacao Wow, Nike Dunk Low Grey Gum">
 
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .social-icons img a {
-            width: 40px;
-            height: 40px;
-            border: 10px solid #ffffff;
-        }
-
         .social-icons img {
             width: 40px;
             height: 40px;
-            border: 10px solid #ffffff;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .header img {
+            max-width: 100%;
+            height: auto;
         }
 
         .header {
-            background-color: #ffffff;
-            padding: 20px;
             text-align: center;
         }
     </style>
@@ -40,32 +34,40 @@
 
 <body>
 
-    <div class="header">
-        <img src="dk_logo.png" alt="Duke Culture Speakers and More" />
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="header">
+                    <img src="dk_logo.png" alt="Duke Culture Speakers and More" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-12">
+                &nbsp;
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-1 social-icons">
+                <a href="https://www.instagram.com/dukeculture.riga" target="_blank"><img src="instagram.png"
+                        alt="Duke Culture Instagram"></a>
+            </div>
+            <div class="col-1 social-icons">
+                <a href="https://www.tiktok.com/@dukeculture.riga" target="_blank"><img src="tik-tok.png"
+                        alt="Duke Culture TikTok"></a>
+            </div>
+            <div class="col-1 social-icons">
+                <a href="https://t.me/dukeculture" target="_blank"><img src="telegram.png"
+                        alt="Duke Culture Telegram"></a>
+            </div>
+        </div>
     </div>
 
-    <div class="social-icons">
-        <a href="https://www.instagram.com/dukeculture.riga" target="_blank"><img src="instagram.png"
-                alt="Duke Culture Instagram"></a>
-        <a href="https://www.tiktok.com/@dukeculture.riga" target="_blank"><img src="tik-tok.png"
-                alt="Duke Culture TikTok" /></a>
-        <a href="https://t.me/dukeculture" target="_blank"><img src="telegram.png" alt="Duke Culture Telegram" /></a>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
